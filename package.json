@@ -7,6 +7,8 @@
   "devDependencies": {
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
     "tailwindcss": "^3.4.3",
     "vite": "^5.2.10"
   },
@@ -42,6 +44,7 @@
     "fast-glob": "^3.3.2",
     "fastq": "^1.17.1",
     "fill-range": "^7.0.1",
+    "flowbite": "^2.3.0",
     "foreground-child": "^3.1.1",
     "fraction.js": "^4.3.7",
     "fsevents": "^2.3.3",
