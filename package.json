@@ -13,6 +13,9 @@
     "tailwindcss-aria-attributes": "^2.0.1",
     "vite": "^5.2.10"
   },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  },
   "name": "neweramabs",
   "version": "1.0.0",
   "main": "postcss.config.js",
@@ -48,7 +51,6 @@
     "flowbite": "^2.3.0",
     "foreground-child": "^3.1.1",
     "fraction.js": "^4.3.7",
-    "fsevents": "^2.3.3",
     "function-bind": "^1.1.2",
     "glob": "^10.3.12",
     "glob-parent": "^6.0.2",
