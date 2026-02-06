@@ -498,26 +498,26 @@
           </div>
 
           <!-- video -->
-          <div>
-            <script type="text/javascript">
-              document.addEventListener(
-                'click',
-                function (event) {
-                  var videoId = event.target.getAttribute('data-video');
-                  if (!videoId) return;
-                  var iframe = document.createElement('div');
-                  iframe.innerHTML =
-                    '<br/><div class="relative h-0 overflow-hidden max-w-full w-full" style="padding-bottom: 56.25%"><iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/uKYGU5kPRCY?rel=0&autoplay=1&color=white" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>';
-                  var video = iframe.childNodes[1];
-                  event.target.parentNode.replaceChild(video, event.target);
-                },
-                false
-              );
-            </script>
-            <a href="#selmax" style="text-decoration: none">
-              <img class="mx-auto max-w-sm md:max-w-full" data-video="https://www.youtube.com/embed/uKYGU5kPRCY" alt="Antibody discovery with selmax" src="assets/nem-selmax-video.svg" />
-            </a>
-          </div>
+<!--          <div>-->
+<!--            <script type="text/javascript">-->
+<!--              document.addEventListener(-->
+<!--                'click',-->
+<!--                function (event) {-->
+<!--                  var videoId = event.target.getAttribute('data-video');-->
+<!--                  if (!videoId) return;-->
+<!--                  var iframe = document.createElement('div');-->
+<!--                  iframe.innerHTML =-->
+<!--                    '<br/><div class="relative h-0 overflow-hidden max-w-full w-full" style="padding-bottom: 56.25%"><iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/uKYGU5kPRCY?rel=0&autoplay=1&color=white" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>';-->
+<!--                  var video = iframe.childNodes[1];-->
+<!--                  event.target.parentNode.replaceChild(video, event.target);-->
+<!--                },-->
+<!--                false-->
+<!--              );-->
+<!--            </script>-->
+<!--            <a href="#selmax" style="text-decoration: none">-->
+<!--              <img class="mx-auto max-w-sm md:max-w-full" data-video="https://www.youtube.com/embed/uKYGU5kPRCY" alt="Antibody discovery with selmax" src="assets/nem-selmax-video.svg" />-->
+<!--            </a>-->
+<!--          </div>-->
         </div>
         <!-- Row -->
         <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
